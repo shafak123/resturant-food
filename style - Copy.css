@@ -1,0 +1,323 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.made {
+
+    display: flex;
+    margin-left: 100px;
+
+
+}
+.logo{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: auto;
+    
+    
+}
+.c1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    /* background-color: red; */
+
+}
+.img-c1 img{
+    width: 400px;
+    height: 500px;
+}
+
+.img-c1{
+    margin-left: 20px;
+}
+.d1{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.made nav {
+
+    width: 100%;
+    display: flex;
+}
+
+.made ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 5px;
+}
+
+.made ul li a {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    height: 70px;
+    width: 155px;
+    margin-left: 13px;
+
+
+}
+
+.logo h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+
+.lock h3 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.lock p {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 50px;
+}
+
+.lock button {
+    margin: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 214, 158);
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.sale h3 {
+
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.sale p {
+    padding: 20px;
+    height: 5px;
+}
+
+.ol img {
+    display: flex;
+    margin: 3% 5px;
+    padding: 5% 10px;
+    
+
+}
+
+.hero-image {
+    background-image: url(food1.jpg);
+    height: 100vh;
+    background-image: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin-top: 5px;
+
+
+}
+.ol h2{
+    font-size: 20px;
+}
+.ol button{
+    background-color: rgb(18, 188, 240);
+    font-size: 30px;
+    margin-top: 10px;
+}
+button:hover{
+    color: rgb(53, 51, 51);
+}
+.red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+    /* padding: 5px 0px; */
+
+
+}
+
+.w-card{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+
+
+}
+.img-card{
+    width: 400px;
+    height: 300px;
+}
+.img-card img{
+    width: 400px;
+    height: 300px;
+}
+
+
+.review{
+   width: 100%;
+   height: auto;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 10px;
+
+
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
+
+.r-card{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    
+
+}
+
+.r-card p{
+    padding: 20px;
+}
+
+.news{
+    margin-top: 20px;
+}
+
+.r-card img{
+width: 250px;
+height: 200px;
+margin-top: 20px;
+    
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-image: url("https://c0.wallpaperflare.com/preview/1013/721/141/contact-details-smartphone-business-contact-us.jpg");
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+
+}
+
+.cont1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(20, 19, 19, 0.7);
+    height: 500px;
+    color: white;
+    
+}
+.cont1 input{
+       padding: 10px;
+       margin: 20px;
+       width: 80%;
+}
+.cont2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    color: white;
+    background-color: rgba(20, 19, 19, 0.7);
+}
+.cont2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+    
+
+}
